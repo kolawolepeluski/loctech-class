@@ -1,0 +1,17 @@
+.containers{
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.links{
+    display:flex ;
+    align-items: center;
+    gap: 2rem;    
+}
+.link{
+    color: white;
+}

@@ -1,0 +1,29 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    padding: 1rem;
+}
+
+.nav .links{
+    display: none;
+}
+
+.links p{
+    color: green;
+}
+
+.mobNav{
+    background-color: pink;
+}
+
+@media(min-width:768px){
+    .ham{
+        display: none;
+    }
+    .nav .links{
+        display: flex;
+        gap: 2rem;
+    }
+
+}

@@ -1,0 +1,8 @@
+.btn{
+    padding: 1.3rem 5rem;
+    background-color:  rgb(217, 10, 10);
+    color: white;
+    border-radius: 3rem;
+    outline: none;
+    border: none;
+}
